@@ -1,22 +1,16 @@
 <template>
-    <div class="aboutMe-section-wrapper">
-        <AboutMe />
-    </div>
+  <div class="aboutMe-section-wrapper">
+    <AboutMe />
+  </div>
 </template>
 
-
-
 <script setup>
-
 import AboutMe from '@/components/AboutMe.vue'
-
-
 </script>
-
 
 <style scoped>
 .aboutMe-section-wrapper {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;

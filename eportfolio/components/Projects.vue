@@ -1,3 +1,3 @@
 <template>
-<h1>Section for my projects</h1>
+  <h1>Section for my projects</h1>
 </template>

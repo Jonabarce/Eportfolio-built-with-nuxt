@@ -1,22 +1,16 @@
 <template>
-    <div class="project-section-wrapper">
-        <Projects />
-    </div>
+  <div class="project-section-wrapper">
+    <Projects />
+  </div>
 </template>
 
-
-
 <script setup>
-
 import Projects from '@/components/Projects.vue'
-
-
 </script>
-
 
 <style scoped>
 .projects-section-wrapper {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;

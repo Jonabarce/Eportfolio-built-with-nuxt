@@ -1,24 +1,18 @@
 <template>
-<div class="website-wrapper">
-<StartPage />
-<AboutMePage />
-<ProjectPage />
-<ContactPage />
-</div>
+  <div class="website-wrapper">
+    <StartPage />
+    <AboutMePage />
+    <ProjectPage />
+    <ContactPage />
+  </div>
 </template>
 
-
 <script setup>
-
-
 import AboutMePage from '@/pages/AboutMePage.vue'
 import ContactPage from '@/pages/ContactPage.vue'
-import ProjectPage from '@/pages/ProjectPage.vue';
-import StartPage from '@/pages/StartPage.vue';
-
-
+import ProjectPage from '@/pages/ProjectPage.vue'
+import StartPage from '@/pages/StartPage.vue'
 </script>
-
 
 <style scoped>
 .website-wrapper {

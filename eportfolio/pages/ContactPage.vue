@@ -1,22 +1,16 @@
 <template>
-    <div class="contact-section-wrapper">
-        <Contact />
-    </div>
+  <div class="contact-section-wrapper">
+    <Contact />
+  </div>
 </template>
 
-
-
 <script setup>
-
 import Contact from '@/components/Contact.vue'
-
-
 </script>
-
 
 <style scoped>
 .contact-section-wrapper {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
