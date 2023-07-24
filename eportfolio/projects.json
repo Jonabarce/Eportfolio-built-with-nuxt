@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "WeatherWatt",
+      "image": "wargame.png",
+      "description": "This is a weather and power app",
+      "githubLink": "https://github.com/Jonabarce/IDATT2001",
+      "liveDemoLink": "ferfe"
+    },
+    {
+      "title": "Smartmat",
+      "image": "wargame.png",
+      "description": "This is a digital fridge app",
+      "githubLink": "https://github.com/Jonabarce/IDATT2001",
+      "liveDemoLink": "ferferfer"
+    },
+    {
+      "title": "Project Wargames",
+      "image": "wargame.png",
+      "description": "This project is a school project. It was part of the subject 'Programming 2 - IDATT2001'. It had to be a simple wargame made with javafx.",
+      "githubLink": "https://github.com/Jonabarce/IDATT2001",
+      "liveDemoLink": "NONE"
+    },
+    {
+      "title": "Tournament Creater App",
+      "image": "tournament.png",
+      "description": "This project is a school projects. It was part of the subject 'System development - IDATT1002'.The tournament creater app is an app made to help structure and make e-sport tournaments. This app was made with a group of 6 people. Check out the gitlab link for more information",
+      "githubLink": "https://github.com/Jonabarce/IDATT1002",
+      "liveDemoLink": "NONE"
+    }
+  ]
+}

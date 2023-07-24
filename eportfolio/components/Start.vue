@@ -4,8 +4,8 @@
       <img src="@/assets/me.jpg" alt="" />
     </div>
     <div class="short-text-wrapper">
-      <h1>
-        Computer engineering student
+      <h1 class="animated-title">
+        I'm a <span>{{ currentTitle }}</span> <br />
         <Icon name="ph:computer-tower-fill" color="purple" />
       </h1>
       <p>
@@ -17,10 +17,37 @@
         I am Jonatan Andre Vevang. I am a third year computer engineering
         student
       </p>
-      <p>at NTNU, based in Trondheim, Norway</p>
+      <p>
+        at NTNU, based in Trondheim, Norway <Icon name="fluent-emoji:house" />
+        <Icon name="flag:bv-4x3" />
+      </p>
     </div>
   </div>
 </template>
+
+<script setup>
+import { ref, onMounted } from 'vue'
+
+const titles = ['computer engineering student', 'team player', 'developer']
+const currentTitle = ref('')
+const titleIndex = ref(0)
+
+async function typeTitle(title) {
+  for (const char of title) {
+    currentTitle.value += char
+    await new Promise((resolve) => setTimeout(resolve, 100))
+  }
+}
+
+onMounted(async () => {
+  while (true) {
+    await typeTitle(titles[titleIndex.value])
+    await new Promise((resolve) => setTimeout(resolve, 2000))
+    currentTitle.value = ''
+    titleIndex.value = (titleIndex.value + 1) % titles.length
+  }
+})
+</script>
 
 <style scoped>
 .start-wrapper {
@@ -33,13 +60,23 @@
   margin: 0 auto;
 }
 
-
-
 .short-text-wrapper {
   margin-right: 4rem;
+  width: 40rem;
 }
 
+.short-text-wrapper h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: Mulish, sans-serif;
+}
 
+.short-text-wrapper p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
 
 .picture-wrapper img {
   -webkit-animation: morph 8s ease-in-out infinite;
@@ -54,6 +91,13 @@
   transition: all 1s ease-in-out;
 }
 
+.animated-title span {
+  color: #147efb;
+}
+
+.animated-title {
+  font-family: Mulish, sans-serif;
+}
 
 @keyframes morph {
   0% {
@@ -70,6 +114,24 @@
 @media screen and (max-width: 768px) {
   .start-wrapper {
     flex-direction: column;
+  }
+
+  .short-text-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%; /* Sett en fast bredde også for mobilvisning. Juster denne verdien etter behov */
+  }
+
+  .short-text-wrapper h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .short-text-wrapper p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
   }
 }
 </style>

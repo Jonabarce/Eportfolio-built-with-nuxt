@@ -9,7 +9,7 @@ import Projects from '@/components/Projects.vue'
 </script>
 
 <style scoped>
-.projects-section-wrapper {
+.project-section-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,5 +17,6 @@ import Projects from '@/components/Projects.vue'
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
+  background-color: #f9f9f9;
 }
 </style>

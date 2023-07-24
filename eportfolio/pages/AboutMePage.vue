@@ -17,5 +17,6 @@ import AboutMe from '@/components/AboutMe.vue'
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
+  background-color: #ffffff;
 }
 </style>

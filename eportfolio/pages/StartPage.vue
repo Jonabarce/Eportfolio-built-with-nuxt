@@ -21,5 +21,6 @@ import Socials from '@/components/Socials.vue'
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
+  background-color: #f9f9f9;
 }
 </style>

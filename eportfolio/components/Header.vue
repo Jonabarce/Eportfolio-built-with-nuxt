@@ -1,23 +1,53 @@
 <template>
   <div class="header-wrapper">
-    <NuxtLink to="/">
-      <p>header bilde og navn</p>
+    <NuxtLink class="" to="/">
+      <div class="header-nuxtlink">
+        <div>
+          <h3>Jonatan</h3>
+        </div>
+        <div>
+          <Icon name="raphael:anonymous" />
+        </div>
+      </div>
     </NuxtLink>
+    <div class="options-wrapper">
+      <div>
+        <h2>About me</h2>
+      </div>
+      <div>
+        <h2>Projects</h2>
+      </div>
+      <div>
+        <h2>Contact me</h2>
+      </div>
+
+      <div>
+        <h2>CV</h2>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.logo-header-wrapper {
+.header-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0 1rem;
+  justify-content: space-between;
+}
+
+.header-nuxtlink {
+  display: flex;
+  flex-direction: row;
   text-decoration: none;
   color: #000;
   font-size: 1.5rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+.options-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  font-family: Mulish, sans-serif;
 }
 </style>

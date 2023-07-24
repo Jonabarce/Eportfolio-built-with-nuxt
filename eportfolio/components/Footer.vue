@@ -7,17 +7,10 @@
 </template>
 
 <style scoped>
-.logo-footer-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.footer-wrapper {
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
-  text-decoration: none;
-  color: #000;
-  font-size: 1.5rem;
-  font-weight: 700;
-  cursor: pointer;
+  background-color: #3f3f46;
 }
 </style>
