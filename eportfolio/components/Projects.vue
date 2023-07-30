@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="image-container">
-        <img :src="`/public/${project.image}`" :alt="project.title" />
+        <img :src="`${project.image}`" :alt="project.title" />
       </div>
     </div>
   </div>
