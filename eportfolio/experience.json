@@ -1,9 +1,25 @@
-[
+{
+  "ExperienceArray": [
     {
-      "img": "@/assets/wargame.png",
-      "title": "BUILDeR AS",
-      "position": "Software Developer",
-      "period": "2018 - 2019",
-      "description": "lorem"
+      "Id": 1,
+      "Title": "Developer",
+      "Company": "BUILDeR AS",
+      "About": "Works as a developer at BUILDeR AS. BUILDeR is a start-up company that works to help production companies in the building and construction industry to share the workforce between them.",
+      "Date": "2023 - "
+    },
+    {
+      "Id": 2,
+      "Title": "Developer",
+      "Company": "Index",
+      "About": "Member of Index since January 2023 . Index works flexibly with the development of Tihlde's solutions including the website of the line association. Im currently working with frontend using react once a week. Check out the website at: https://tihlde.org/",
+      "Date": "2023 - "
+    },
+    {
+      "Id": 3,
+      "Title": "Sales, service and administration",
+      "Company": "Circle k Finnsnes and Bardufoss",
+      "About": "I have worked in the family's businesses where i have gained experience over several years. Everything from cleaning, replenishment, sales, service, teamwork and accounting",
+      "Date": "2015 - 2022"
     }
   ]
+}

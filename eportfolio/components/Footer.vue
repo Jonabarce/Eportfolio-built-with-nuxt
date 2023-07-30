@@ -1,8 +1,6 @@
 <template>
   <div class="footer-wrapper">
-    <NuxtLink to="/">
-      <p>Footer</p>
-    </NuxtLink>
+    <h3>Jonatan</h3>
   </div>
 </template>
 
@@ -12,5 +10,10 @@
   width: 100%;
   margin: 0 auto;
   background-color: #3f3f46;
+}
+
+.footer-wrapper h3 {
+  color: #FFFFFF;
+  margin-left: 1rem;
 }
 </style>

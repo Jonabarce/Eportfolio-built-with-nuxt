@@ -3,10 +3,13 @@
     <h1 style="color: #0369dd">My projects</h1>
     <div class="project-card" v-for="(project, index) in projects" :key="index">
       <div class="text-content">
-        <h2 style="color: #000000">{{ project.title }}</h2>
-        <p>{{ project.description }}</p>
+        <h3 style="color: #000000">{{ project.title }}</h3>
+        <p id="description">{{ project.description }}</p>
         <div class="links">
-          <a class="github-href" :href="project.githubLink"
+          <a
+            class="github-href"
+            v-if="project.githubLink !== 'NONE'"
+            :href="project.githubLink"
             >Source code<Icon class="the-icon" name="devicon:github"
           /></a>
           <a
@@ -38,12 +41,20 @@ const projects = reactive(projectData.projects)
   align-items: center;
 }
 
+.text-contenct h3 {
+  font-size: 16px;
+}
+
+#description {
+  font-size: 16px;
+}
+
 .github-href,
 .live-href {
   text-decoration: none;
   color: #000000;
   border-radius: 1.7rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .github-href:hover {
@@ -61,12 +72,12 @@ const projects = reactive(projectData.projects)
   flex-direction: row;
   padding: 2rem;
   margin: 2rem auto;
-  width: 65%;
-  height: 30%;
+  width: 950px;
+  height: 490px;
   justify-content: space-between;
   background-color: #fff;
   border-radius: 1.7rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .project-card:nth-child(odd) {
@@ -81,10 +92,11 @@ const projects = reactive(projectData.projects)
 }
 
 .image-container img {
-  width: 80%;
-  height: 90%;
+  width: 482px;
+  height: 307px;
   object-fit: cover;
-  border-radius: 20px;
+  display: block;
+  border-radius: 1.7rem;
 }
 
 .text-content {
@@ -92,7 +104,6 @@ const projects = reactive(projectData.projects)
   flex-direction: column;
   width: 35%;
   height: 100%;
-  font-size: 20px;
   color: #525252;
   font-family: Mulish, sans-serif;
   font-size: 1.3rem;
@@ -105,13 +116,88 @@ const projects = reactive(projectData.projects)
   gap: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1299px) {
   .project-card,
   .project-card:nth-child(odd) {
     flex-direction: column-reverse;
     align-items: center;
-    width: 70%;
+    width: 60%;
     height: auto;
+  }
+  .image-container img {
+    width: 530px;
+    height: 307px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.7rem;
+  }
+  .text-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .image-container img {
+    width: 490px;
+    height: 340px;
+  }
+  .text-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-card,
+  .project-card:nth-child(odd) {
+    width: 570px;
+    height: 750px;
+  }
+
+  .image-container img {
+    width: 560px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.7rem;
+  }
+
+  .text-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 825px) {
+  .project-card,
+  .project-card:nth-child(odd) {
+    width: 508px;
+    height: 750px;
+  }
+
+  .image-container img {
+    width: 530px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1.7rem;
+  }
+
+  @media (max-width: 768px) {
+    .project-card,
+    .project-card:nth-child(odd) {
+      width: 250px;
+      height: 1000px;
+    }
+    .image-container img {
+      width: 400px;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      border-radius: 1.7rem;
+    }
+
+    .links {
+      flex-direction: column;
+    }
   }
 }
 </style>

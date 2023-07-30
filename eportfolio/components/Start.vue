@@ -15,10 +15,8 @@
           color="black"
         />
         I am Jonatan Andre Vevang. I am a third year computer engineering
-        student
-      </p>
-      <p>
-        at NTNU, based in Trondheim, Norway <Icon name="fluent-emoji:house" />
+        student at NTNU, based in Trondheim, Norway
+        <Icon name="fluent-emoji:house" />
         <Icon name="flag:bv-4x3" />
       </p>
     </div>

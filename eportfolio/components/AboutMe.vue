@@ -84,7 +84,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .about-us-text-section p {
     font-size: 18px;
   }
@@ -96,7 +96,7 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 817px) {
   .about-us-section-wrapper {
     flex-direction: column;
     max-width: 80%;

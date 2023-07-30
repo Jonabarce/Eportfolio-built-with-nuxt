@@ -1,15 +1,15 @@
 <template>
-  <div class="contact-section-wrapper">
-    <Contact />
+  <div class="experience-wrapper">
+    <Experience />
   </div>
 </template>
 
 <script setup>
-import Contact from '@/components/Contact.vue'
+import Experience from '@/components/Experience.vue'
 </script>
 
 <style scoped>
-.contact-section-wrapper {
+.experience-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,6 @@ import Contact from '@/components/Contact.vue'
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 </style>

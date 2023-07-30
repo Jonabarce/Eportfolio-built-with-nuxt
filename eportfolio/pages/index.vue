@@ -1,9 +1,14 @@
 <template>
   <div class="website-wrapper">
     <StartPage />
-    <AboutMePage />
-    <ProjectPage />
-    <ContactPage />
+    <AboutMePage id="aboutme" />
+    <ProjectPage id="projects" />
+    <ExperiencePage id="experience" />
+    <br />
+    <br />
+    <ContactPage id="contact" />
+    <br />
+    <br />
   </div>
 </template>
 
@@ -12,6 +17,7 @@ import AboutMePage from '@/pages/AboutMePage.vue'
 import ContactPage from '@/pages/ContactPage.vue'
 import ProjectPage from '@/pages/ProjectPage.vue'
 import StartPage from '@/pages/StartPage.vue'
+import ExperiencePage from '@/pages/ExperiencePage.vue'
 </script>
 
 <style scoped>

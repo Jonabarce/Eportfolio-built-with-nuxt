@@ -1,18 +1,18 @@
 {
   "projects": [
     {
-      "title": "WeatherWatt",
-      "image": "wargame.png",
-      "description": "This is a weather and power app",
-      "githubLink": "https://github.com/Jonabarce/IDATT2001",
-      "liveDemoLink": "ferfe"
+      "title": "COMMERCEBAY",
+      "image": "finn.png",
+      "description": "This is a school project, where i was in a team of 4 people that had 1 week to make a copy of finn.no/ebay.com. It was made using Vue.js and Spring boot with MySQL as the database. I mainly worked on the frontend but i also helped out fixing the security part for backend. Source code and live demo will available soon.",
+      "githubLink": "NONE",
+      "liveDemoLink": "NONE"
     },
     {
       "title": "Smartmat",
-      "image": "wargame.png",
-      "description": "This is a digital fridge app",
-      "githubLink": "https://github.com/Jonabarce/IDATT2001",
-      "liveDemoLink": "ferferfer"
+      "image": "smartmat.png",
+      "description": "This is a school project where I worked in a team of 7 people. The project deals with the development of a system using the scrum development method. The problem that the product is supposed to solve has been brought up by the product owner and is about reducing food waste in households. The final product is far from perfect, but is well above the expectations that have been set the vision document. It was created using Nuxt 3, spring boot and MySQL as a database. I mostly worked with the frontend but also contributed a bit on the backend. Source code and live demo will available soon.",
+      "githubLink": "NONE",
+      "liveDemoLink": "NONE"
     },
     {
       "title": "Project Wargames",
