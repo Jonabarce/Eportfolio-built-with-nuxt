@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="image-container">
-        <img :src="`@/assets/${project.image}`" :alt="project.title" />
+        <img :src="getImage(project.image)" :alt="project.title" />
       </div>
     </div>
   </div>
@@ -29,9 +29,14 @@
 
 <script setup>
 import { reactive } from 'vue'
+import { computed } from 'vue'
 import projectData from '@/projects.json'
 
 const projects = reactive(projectData.projects)
+
+const getImage = (image) => {
+  return `/assets/${image}`
+}
 </script>
 
 <style scoped>
