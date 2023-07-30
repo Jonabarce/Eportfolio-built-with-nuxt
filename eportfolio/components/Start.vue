@@ -4,10 +4,13 @@
       <img src="@/assets/me.jpg" alt="" />
     </div>
     <div class="short-text-wrapper">
+      <div class="title-container">
       <h1 class="animated-title">
         I'm a <span>{{ currentTitle }}</span> <br />
-        <Icon name="ph:computer-tower-fill" color="purple" />
       </h1>
+      <div>
+      </div>
+    </div>
       <p>
         Hi!
         <Icon
@@ -26,7 +29,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const titles = ['computer engineering student', 'team player', 'developer']
+const titles = ['student', 'team player', 'developer']
 const currentTitle = ref('')
 const titleIndex = ref(0)
 
@@ -57,6 +60,10 @@ onMounted(async () => {
   width: 100%;
   margin: 0 auto;
 }
+
+.title-placeholder {
+    visibility: hidden; /* Gjør plassholderen usynlig */
+  }
 
 .short-text-wrapper {
   margin-right: 4rem;
