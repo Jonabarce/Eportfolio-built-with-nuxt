@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="image-container">
-        <img :src="`/assets/${project.image}`" :alt="project.title" />
+        <img :src="`@/assets/${project.image}`" :alt="project.title" />
       </div>
     </div>
   </div>
