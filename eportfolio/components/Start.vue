@@ -132,7 +132,7 @@ onMounted(async () => {
   }
 
   .short-text-wrapper p {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 1rem;
   }
