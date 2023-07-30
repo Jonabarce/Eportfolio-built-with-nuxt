@@ -61,9 +61,7 @@ onMounted(async () => {
   margin: 0 auto;
 }
 
-.title-placeholder {
-    visibility: hidden; /* Gjør plassholderen usynlig */
-  }
+
 
 .short-text-wrapper {
   margin-right: 4rem;
@@ -137,6 +135,10 @@ onMounted(async () => {
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 1rem;
+  }
+
+  .title-container h1 {
+    font-size: 2.3rem;
   }
 }
 </style>
