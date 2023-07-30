@@ -14,6 +14,6 @@
 
 .footer-wrapper h3 {
   color: #FFFFFF;
-  margin-left: 1rem;
+  margin-left: 1.0rem;
 }
 </style>
