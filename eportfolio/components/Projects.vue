@@ -166,22 +166,28 @@ const projects = reactive(projectData.projects)
   }
 }
 
-@media (max-width: 825px) {
-  .project-card,
-  .project-card:nth-child(odd) {
-    width: 508px;
-    height: 750px;
+
+
+  @media (max-width: 660px) {
+    .project-card,
+    .project-card:nth-child(odd) {
+      width: 400px;
+      height: 1000px;
+    }
+    .image-container img {
+      width: 400px;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      border-radius: 1.7rem;
+    }
+
+    .links {
+      flex-direction: column;
+    }
   }
 
-  .image-container img {
-    width: 530px;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    border-radius: 1.7rem;
-  }
-
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     .project-card,
     .project-card:nth-child(odd) {
       width: 250px;
@@ -199,5 +205,5 @@ const projects = reactive(projectData.projects)
       flex-direction: column;
     }
   }
-}
+
 </style>
