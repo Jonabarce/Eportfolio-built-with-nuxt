@@ -4,7 +4,7 @@
       "title": "COMMERCEBAY",
       "image": "/pictures/finn.jpg",
       "description": "This is a school project, where i was in a team of 4 people that had 1 week to make a copy of finn.no/ebay.com. It was made using Vue.js and Spring boot with MySQL as the database. I mainly worked on the frontend but i also helped out fixing the security part for backend. Source code and live demo will available soon.",
-      "githubLink": "NONE",
+      "githubLink": "https://github.com/Jonabarce/IDATT2105-Full-stack-application-development-project",
       "liveDemoLink": "NONE"
     },
     {
