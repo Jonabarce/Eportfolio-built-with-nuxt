@@ -17,7 +17,7 @@
     {
       "title": "Smartmat",
       "image": "/pictures/smartmat.jpg",
-      "description": "This is a school project where I worked in a team of 7 people. The project deals with the development of a system using the scrum development method. The problem that the product is supposed to solve has been taken up by the product owner and is about reducing food waste in households. The final product is far from perfect, but is well above the expectations set for the vision document. Users can form groups based on household members. There is a digital fridge for all your groceries, and you can even auto-generate weekly menus based on current fridge contents. It was made with Nuxt 3, spring boot and MySQL as a database. I mostly worked with the frontend but also contributed a little on the backend. Source code and live demo will be available soon",
+      "description": "I collaborated with a team of 7 on a school project to create a system using the scrum method aimed at reducing household food waste. The product, although not perfect, exceeded our vision document's expectations, allowing users to group by household, manage a digital fridge of groceries, and auto-generate weekly menus from its contents using Nuxt 3, Spring Boot, and MySQL. While I mainly focused on the frontend, I also assisted with backend tasks. Source code and live demo coming soon.",
       "githubLink": "NONE",
       "liveDemoLink": "NONE"
     },
