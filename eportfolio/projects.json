@@ -10,7 +10,7 @@
     {
       "title": "Smartmat",
       "image": "/pictures/smartmat.jpg",
-      "description": "This is a school project where I worked in a team of 7 people. The project deals with the development of a system using the scrum development method. The problem that the product is supposed to solve has been brought up by the product owner and is about reducing food waste in households. The final product is far from perfect, but is well above the expectations that have been set the vision document. It was created using Nuxt 3, spring boot and MySQL as a database. I mostly worked with the frontend but also contributed a bit on the backend. Source code and live demo will available soon.",
+      "description": "This is a school project where I worked in a team of 7 people. The project deals with the development of a system using the scrum development method. The problem that the product is supposed to solve has been taken up by the product owner and is about reducing food waste in households. The final product is far from perfect, but is well above the expectations set for the vision document. Users can form groups based on household members. There is a digital fridge for all your groceries, and you can even auto-generate weekly menus based on current fridge contents. It was made with Nuxt 3, spring boot and MySQL as a database. I mostly worked with the frontend but also contributed a little on the backend. Source code and live demo will be available soon",
       "githubLink": "NONE",
       "liveDemoLink": "NONE"
     },
