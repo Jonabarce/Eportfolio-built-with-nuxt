@@ -309,6 +309,10 @@ input[type='submit'] {
   transition: background-color 0.1s ease;
 }
 
+.error-message {
+  color: #FF8F8F;
+}
+
 @media only screen and (max-width: 1100px) {
   .contact-container {
     display: flex;
@@ -331,6 +335,10 @@ input[type='submit'] {
   }
   .contact-form-div h2 {
     font-size: 1.1rem;
+  }
+
+  .contact-wrapper{
+    width: 80%;
   }
 }
 </style>

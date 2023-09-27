@@ -190,11 +190,11 @@ const projects = reactive(projectData.projects)
   @media (max-width: 500px) {
     .project-card,
     .project-card:nth-child(odd) {
-      width: 250px;
+      width: 280px;
       height: 1000px;
     }
     .image-container img {
-      width: 400px;
+      width: 150%;
       height: 200px;
       object-fit: cover;
       display: block;
