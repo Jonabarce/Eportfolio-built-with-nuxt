@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Sudoku",
+      "image": "/pictures/sudoku.jpg",
+      "description": "A Sudoku app made with React Native to learn more react and native. This is a project in IDATT2506-Application-development-for-mobile-devices. It offers 3 different difficulties and a storage to load and save games. Check out the github repo for more information.",
+      "githubLink": "https://github.com/Jonabarce/IDATT2506-Application-development-for-mobile-devices/tree/main/Project/sudoku",
+      "liveDemoLink": "NONE"
+    },
+    {
       "title": "WeatherWatt",
       "image": "/pictures/weatherwatt.jpg",
       "description": "A personal Nuxt project offering global weather updates from the Meteorological Institute and electricity prices for Norway via Beneficial Apps. Get real-time weather and power pricing without leaving the site.",
@@ -19,13 +26,6 @@
       "image": "/pictures/smartmat.jpg",
       "description": "I collaborated with a team of 7 on a school project to create a system using the scrum method aimed at reducing household food waste. The product, although not perfect, exceeded our vision document's expectations, allowing users to group by household, manage a digital fridge of groceries, and auto-generate weekly menus from its contents using Nuxt 3, Spring Boot, and MySQL. While I mainly focused on the frontend, I also assisted with backend tasks. Source code and live demo coming soon.",
       "githubLink": "NONE",
-      "liveDemoLink": "NONE"
-    },
-    {
-      "title": "Project Wargames",
-      "image": "/pictures/wargame.jpg",
-      "description": "This project is a school project. It was part of the subject 'Programming 2 - IDATT2001'. It had to be a simple wargame made with javafx.",
-      "githubLink": "https://github.com/Jonabarce/IDATT2001",
       "liveDemoLink": "NONE"
     },
     {
