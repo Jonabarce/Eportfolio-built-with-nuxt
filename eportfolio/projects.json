@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Cv maker",
+      "image": "/pictures/cvmaker.jpg",
+      "description": "Cv maker app that I made using NextJS with tailwind and shadcn for the frontend. The Backend is made with spring boot and postgresql as the database. The app allows you to create  and update cver which you can download as pdf.As of now, you can only download one type of cv format, but plan to add more later. Backend might be slow since the hosting for it is free... feel free to try it out. The code for the project can be shown on request",
+      "githubLink": "NONE",
+      "liveDemoLink": "https://cv-maker-three-fawn.vercel.app/"
+    },
+    {
       "title": "Sudoku",
       "image": "/pictures/sudoku.jpg",
       "description": "A Sudoku app made with React Native to learn more react and native. This is a project in IDATT2506-Application-development-for-mobile-devices. It offers 3 different difficulties and a storage to load and save games. Check out the github repo for more information.",
